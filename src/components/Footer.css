@@ -1,0 +1,44 @@
+#footer{
+    padding: 15px;
+    background-color:  #90caf9;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap:35vw;
+}
+#s7{
+    color: rgb(7, 135, 92);
+    font-size: xx-large;
+}
+#s8{
+    font-size: xx-large;
+}
+#s9{
+    color: rgb(21, 192, 135);
+    font-size: x-large;
+}
+
+@media (max-width: 768px) {
+    #footer {
+      flex-direction: column;
+      gap: 15px;
+      font-size: medium;
+    }
+  
+    #s7, #s8, #s9 {
+      font-size: large;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #footer {
+      font-size: small;
+    }
+  
+    #s7, #s8, #s9 {
+      font-size: medium;
+    }
+  }
+  
